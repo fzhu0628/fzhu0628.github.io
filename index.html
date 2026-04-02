@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
   <title>Feng Zhu</title>
 </head>
 
-<body style="max-width:800px; margin:auto; font-family:'Times New Roman', Times, serif; line-height:1.5;">
+<body style="max-width:800px; margin:auto; font-family:'Lato', sans-serif; line-height:1.7; color:#333;">
 
 <table>
 <tr>
 <td width="65%">
 
-<h1>Feng Zhu</h1>
+<h1 style="font-weight:400;">Feng Zhu</h1>
 
 <p>
-PhD Student<br>
-Electrical and Computer Engineering<br>
+PhD Candidate<br>
+Department of Electrical and Computer Engineering<br>
 North Carolina State University
 </p>
 
@@ -27,7 +28,7 @@ Email: fzhu5@ncsu.edu <br>
 
 </td>
 
-<td width="35%">
+<td width="35%" align="right">
 <img src="photo.jpg" width="180" style="border-radius:50%;">
 </td>
 </tr>
@@ -37,160 +38,131 @@ Email: fzhu5@ncsu.edu <br>
 
 <h2>About</h2>
 <p>
-I am a PhD student in the Department of Electrical and Computer Engineering at North Carolina State University, co-advised by 
+I am a PhD candidate in Electrical and Computer Engineering at North Carolina State University, co-advised by 
 <a href="https://amitra2.wordpress.ncsu.edu/">Prof. Aritra Mitra</a> and 
 <a href="https://jacobsschool.ucsd.edu/people/profile/robert-w-heath-jr">Prof. Robert W. Heath Jr.</a>. 
-My research focuses on reinforcement learning, federated learning, and multi-agent systems, with an emphasis on sample efficiency and theoretical guarantees. 
-I am interested in scalable and decentralized learning under limited data and communication constraints.
+My research focuses on federated reinforcement learning, distributed optimization, and multi-agent systems, with an emphasis on sample efficiency and high-probability guarantees. 
+I am interested in developing provably efficient algorithms for large-scale multi-agent learning systems.
 </p>
 
 <h2>Research Interests</h2>
 <ul>
-  <li>Reinforcement Learning</li>
-  <li>Federated Learning</li>
+  <li>Federated Reinforcement Learning</li>
+  <li>Federated & Distributed Learning</li>
   <li>Multi-agent Systems</li>
-  <li>Decentralized Optimization</li>
-  <li>Sample-efficient Learning</li>
-  <li>High-probability Guarantees</li>
+  <li>Stochastic Approximation</li>
+  <li>High-probability Analysis</li>
 </ul>
 
 <h2>Publications</h2>
 
-<table>
-
-<tr>
-<td width="25%">
-<img src="placeholder.png" width="120">
-</td>
-<td width="75%">
-<b>Distributed Stochastic Approximation with Constant Communication</b><br>
-Feng Zhu, R. W. Heath, Aritra Mitra<br>
-<i>IEEE Asilomar</i>, 2025<br>
-<span style="color:#444;">
-Develops communication-efficient stochastic approximation methods with provable convergence under limited information exchange.
-</span><br>
-<a href="#">paper</a>
-</td>
-</tr>
-
-<tr>
-<td>
-<img src="placeholder.png" width="120">
-</td>
-<td>
-<b>Variance-Reduced Q-Learning over Static and Time-Varying Networks</b><br>
-S. Maity*, Feng Zhu*, A. Mitra, R. W. Heath<br>
-<i>ACC</i>, 2025<br>
-<span style="color:#444;">
-Introduces variance reduction techniques to improve sample efficiency in distributed Q-learning over networked systems.
-</span><br>
-<a href="#">paper</a>
-</td>
-</tr>
-
-<tr>
-<td>
-<img src="placeholder.png" width="120">
-</td>
-<td>
+<p style="margin-bottom:28px;">
 <b>Achieving Fast Finite-Time Rates for Heterogeneous Federated Stochastic Approximation</b><br>
-Feng Zhu, R. W. Heath, A. Mitra<br>
-<i>TMLR</i>, 2024<br>
+<span style="color:#555;">Feng Zhu, R. W. Heath, A. Mitra</span><br>
+<i>TMLR</i>, 2026. <a href="TMLR26.pdf">[paper]</a><br>
 <span style="color:#444;">
-Provides finite-time convergence guarantees for federated optimization under heterogeneous and Markovian sampling settings.
-</span><br>
-<a href="#">paper</a>
-</td>
-</tr>
+Finite-time guarantees for federated stochastic approximation under heterogeneity and Markovian sampling, with provable linear speedups and no heterogeneity bias.
+</span>
+</p>
 
-<tr>
-<td>
-<img src="placeholder.png" width="120">
-</td>
-<td>
+<p style="margin-bottom:28px;">
+<b>Distributed Stochastic Approximation with Constant Communication</b><br>
+<span style="color:#555;">Feng Zhu, R. W. Heath, Aritra Mitra</span><br>
+<i>IEEE Asilomar</i>, 2025. <a href="Asilomar25.pdf">[paper]</a><br>
+<span style="color:#444;">
+Communication-efficient stochastic approximation with provable convergence under constant communication rounds.
+</span>
+</p>
+
+<p style="margin-bottom:28px;">
+<b>Variance-Reduced Q-Learning over Static and Time-Varying Networks</b><br>
+<span style="color:#555;">S. Maity*, Feng Zhu*, A. Mitra, R. W. Heath</span><br>
+<i>ACC</i>, 2025. <a href="ACC26.pdf">[paper]</a><br>
+<span style="color:#444;">
+Variance reduction improves sample efficiency in distributed Q-learning across networked agents.
+</span>
+</p>
+
+<p style="margin-bottom:28px;">
 <b>Towards Fast Rates for Federated and Multi-Task Reinforcement Learning</b><br>
-Feng Zhu, R. W. Heath, A. Mitra<br>
-<i>IEEE CDC</i>, 2024<br>
+<span style="color:#555;">Feng Zhu, R. W. Heath, A. Mitra</span><br>
+<i>IEEE CDC</i>, 2024. <a href="CDC24.pdf">[paper]</a><br>
 <span style="color:#444;">
-Studies acceleration techniques for federated and multi-task reinforcement learning with theoretical performance guarantees.
-</span><br>
-<a href="#">paper</a>
-</td>
-</tr>
+Accelerated learning in federated and multi-task RL with theoretical guarantees: linear speedups and no heterogeneity-induced bias.
+</span>
+</p>
 
-<tr>
-<td>
-<img src="placeholder.png" width="120">
-</td>
-<td>
+<p style="margin-bottom:28px;">
 <b>STSyn: Speeding up Local SGD with Straggler-Tolerant Synchronization</b><br>
-Feng Zhu, J. Zhang, X. Wang<br>
-<i>IEEE TSP</i>, 2024<br>
+<span style="color:#555;">Feng Zhu, J. Zhang, X. Wang</span><br>
+<i>IEEE TSP</i>, 2024. <a href="TSP24.pdf">[paper]</a><br>
 <span style="color:#444;">
-Proposes synchronization strategies to mitigate stragglers and improve efficiency in distributed SGD systems.
-</span><br>
-<a href="#">paper</a>
-</td>
-</tr>
+Straggler-resilient synchronization for efficient distributed SGD.
+</span>
+</p>
 
-</table>
+<p style="margin-bottom:28px;">
+<b>Communication-Efficient Local SGD with Age-Based Worker Selection</b><br>
+<span style="color:#555;">Feng Zhu, J. Zhang, X. Wang</span><br>
+<i>Journal of Supercomputing</i>, 2023. <a href="JoS22.pdf">[paper]</a><br>
+<span style="color:#444;">
+Proposes age-based worker selection to improve efficiency in communication-constrained distributed learning.
+</span>
+</p>
+
+<p style="margin-bottom:28px;">
+<b>Adaptive Worker Grouping for Communication-Efficient and Straggler-Tolerant Distributed SGD</b><br>
+<span style="color:#555;">Feng Zhu, J. Zhang, O. Simeone, X. Wang</span><br>
+<i>IEEE ISIT</i>, 2022. <a href="ISIT22.pdf">[paper]</a><br>
+<span style="color:#444;">
+Introduces adaptive grouping strategies to improve communication efficiency and robustness in distributed SGD.
+</span>
+</p>
+
 
 <h2>Submissions & Preprints</h2>
 
-<table>
-
-<tr>
-<td width="25%">
-<img src="placeholder.png" width="120">
-</td>
-<td width="75%">
+<p style="margin-bottom:28px;">
 <b>A Short and Unified Convergence Analysis of SAG, SAGA, and IAG</b><br>
-Feng Zhu, R. W. Heath, A. Mitra<br>
-<i>ArXiv</i>, 2025 (Submitted to ICML)<br>
+<span style="color:#555;">Feng Zhu, R. W. Heath, A. Mitra</span><br>
+<i>ArXiv</i>, 2026 (Submitted to ICML). <a href="ICML26.pdf">[paper]</a><br>
 <span style="color:#444;">
-Provides a unified high-probability convergence analysis for classical variance-reduced optimization algorithms.
-</span><br>
-<a href="#">paper</a>
-</td>
-</tr>
+Unified high-probability analysis for classical variance-reduced optimization algorithms.
+</span>
+</p>
 
-<tr>
-<td>
-<img src="placeholder.png" width="120">
-</td>
-<td>
+<p style="margin-bottom:28px;">
+<b>Variance-Reduced Federated Q-Learning with Constant Communication</b><br>
+<span style="color:#555;">Feng Zhu, R. W. Heath, A. Mitra</span><br>
+Submitted to TAC, 2026. </a><br>
+<span style="color:#444;">
+Combines variance reduction and communication-efficient design for federated RL.
+</span>
+</p>
+
+<p style="margin-bottom:28px;">
 <b>One-Shot Clustering for Personalized Federated Policy Evaluation</b><br>
-Feng Zhu, R. W. Heath, A. Mitra<br>
-Submitted to IEEE TSP, 2025<br>
+<span style="color:#555;">Feng Zhu, R. W. Heath, A. Mitra</span><br>
+Submitted to TSP, 2026. </a><br>
 <span style="color:#444;">
-Introduces clustering-based methods to enable personalized policy evaluation in federated reinforcement learning.
-</span><br>
-<a href="#">paper</a>
-</td>
-</tr>
+Clustering-based personalization for federated policy evaluation.
+</span>
+</p>
 
-<tr>
-<td>
-<img src="placeholder.png" width="120">
-</td>
-<td>
-<b>Clustered Federated Q-Learning with Little Communication</b><br>
-Feng Zhu, B. Ray, S. Sengupta, R. W. Heath, A. Mitra<br>
-Submitted to AISTATS, 2025<br>
+<p style="margin-bottom:28px;">
+<b>DRAG: Divergence-Based Adaptive Aggregation in Federated Learning on Non-IID Data</b><br>
+<span style="color:#555;">Feng Zhu, J. Zhang, S. Liu, X. Wang</span><br>
+<i>ArXiv</i>, 2023 (Submitted to IEEE TIFS). <a href="TIFS25.pdf">[paper]</a><br>
 <span style="color:#444;">
-Develops clustered federated Q-learning algorithms to improve scalability and reduce communication overhead.
-</span><br>
-<a href="#">paper</a>
-</td>
-</tr>
-
-</table>
+Adaptive aggregation method for handling heterogeneity in federated learning.
+</span>
+</p>
 
 <h2>Experience</h2>
 
 <p>
 <b>Qualcomm Inc., Engineer Intern</b> (May–Aug 2024)<br>
-Worked on machine learning–based channel prediction. Developed GPU-based simulations in Python (PyTorch) and MATLAB, and studied model design trade-offs for scalable neural network architectures.
+Worked on Transformer-based channel prediction. Developed GPU-based simulations (PyTorch, MATLAB), explored model scaling trade-offs, and demonstrated performance gains over classical autoregressive models.
 </p>
 
 <h2>Awards</h2>
