@@ -42,7 +42,7 @@ I am a PhD candidate in Electrical and Computer Engineering at North Carolina St
 <a href="https://amitra2.wordpress.ncsu.edu/">Prof. Aritra Mitra</a> and 
 <a href="https://jacobsschool.ucsd.edu/people/profile/robert-w-heath-jr">Prof. Robert W. Heath Jr.</a>. 
 My research focuses on federated reinforcement learning, distributed optimization, and multi-agent systems, with an emphasis on sample efficiency and high-probability guarantees. 
-I am interested in developing provably efficient algorithms for large-scale multi-agent learning systems.
+I am also building practical experience in LLM fine-tuning and RLHF, with recent projects on Direct Preference Optimization (DPO), reward modeling, and variance behavior in preference optimization.
 </p>
 
 <h2>Experience</h2>
@@ -55,6 +55,12 @@ Worked on Transformer-based channel prediction for wireless systems. Developed G
 <h2>Projects</h2>
 
 <p>
+<b>RLHF-DPO: Preference Optimization from Scratch (PyTorch, Hugging Face)</b>
+[<a href="https://github.com/fzhu0628/LLM-RLHF">GitHub</a>]<br>
+Implemented a from-scratch Direct Preference Optimization (DPO) pipeline on Anthropic HH-RLHF, including custom sequence log-probability computation, prompt/response masking, reference-model comparison, SFT experiments, and length-normalized DPO. Preliminary experiments show improved preference accuracy and substantially reduced DPO margin variance with length normalization.
+</p>
+
+<p>
 <b>Deep Reinforcement Learning Algorithms from Scratch (PyTorch)</b>
 [<a href="https://github.com/fzhu0628/RL-from-scratch">GitHub</a>]<br>
 Implemented and benchmarked modern RL algorithms including Q-Learning, DQN, REINFORCE, A2C, and PPO. Built a modular framework for training and evaluation across multiple environments (CartPole, LunarLander), with analysis of convergence and stability.
@@ -63,17 +69,18 @@ Implemented and benchmarked modern RL algorithms including Q-Learning, DQN, REIN
 <p>
 <b>LLM Systems and Fine-Tuning (Hugging Face, PyTorch)</b>
 [<a href="https://github.com/fzhu0628/LLM-HuggingFace">GitHub</a>]<br>
-Built end-to-end NLP pipelines using Transformer models, including inference, sequence handling, and tokenization. Fine-tuned pretrained models using Hugging Face Transformers with both Trainer API and custom training loops.
+Built end-to-end NLP pipelines using Transformer models, including inference, tokenization, sequence handling, and custom fine-tuning loops with Hugging Face Transformers.
 </p>
 
 <h2>Technical Skills</h2>
 
 <ul>
   <li><b>Programming:</b> Python, MATLAB</li>
-  <li><b>ML Frameworks:</b> PyTorch, Hugging Face Transformers</li>
-  <li><b>Scientific Computing:</b> NumPy, SciPy</li>
-  <li><b>Expertise:</b> Reinforcement Learning (DQN, PPO, A2C), Federated Learning, Sample-Efficient RL, LLMs</li>
-  <li><b>Tools:</b> OpenAI Gym, Git, Linux</li>
+  <li><b>ML Frameworks:</b> PyTorch, Hugging Face Transformers, Hugging Face Datasets</li>
+  <li><b>LLM/RLHF:</b> DPO, SFT, sequence log-probabilities, preference datasets, reward modeling</li>
+  <li><b>Reinforcement Learning:</b> Q-Learning, DQN, REINFORCE, A2C, PPO</li>
+  <li><b>Scientific Computing:</b> NumPy, SciPy, Matplotlib</li>
+  <li><b>Tools:</b> CUDA, OpenAI Gym, Git, Linux</li>
 </ul>
 
 <h2>Research Interests</h2>
@@ -81,8 +88,9 @@ Built end-to-end NLP pipelines using Transformer models, including inference, se
   <li>Federated Reinforcement Learning</li>
   <li>Federated & Distributed Learning</li>
   <li>Multi-agent Systems</li>
-  <li>Stochastic Approximation</li>
-  <li>High-probability Analysis</li>
+  <li>Sample-Efficient Reinforcement Learning</li>
+  <li>LLM Fine-Tuning and RLHF</li>
+  <li>Stochastic Approximation and High-Probability Analysis</li>
 </ul>
 
 <h2>Publications</h2>
